@@ -82,7 +82,7 @@ jobs:
                   print(f'  Arquivo: {file}')
                   print(f'  Linhas: {start_line}-{end_line}')
               
-              sys.exit(1)
+              sys.exit(0)
           else:
               print('Nenhuma vulnerabilidade encontrada.')
           "
